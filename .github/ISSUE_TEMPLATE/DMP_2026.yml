@@ -2,7 +2,7 @@ name: DMP 2026 Project Template
 description: List a new project for Dedicated Mentoring Program (DMP) 2026
 title: "[DMP 2026]: "
 labels: ["DMP 2026"]
-project link: https://github.com/gw-ospo/UNSDG-Goals-classifier-tool
+project_link: https://github.com/gw-ospo/UNSDG-Goals-classifier-tool
 body:
   - type: textarea
     id: ticket-description
@@ -61,12 +61,12 @@ body:
     attributes:
       label: Implementation Details
       description: |
-      1. The architecture of the tool is Next.js for frontend and Flask for backend. For the hosting, if you find any suitable architecture
-      along with your hosting platform, feel free to migrate to a different architecture. 
-      2. For testing the tool, search for the most relevant text from each project from DPG, either from the Readme file of github repository or 
-      About section of the website of the project, and enter those details through the tool. See the json output the tool provides and make a
-      spreadsheet of all the inputs and outputs to the system.
-      3. Analyze the spreadsheet using jupyter to find out improvement section of this tool.
+        1. The architecture of the tool is Next.js for frontend and Flask for backend. For the hosting, if you find any suitable architecture
+        along with your hosting platform, feel free to migrate to a different architecture. 
+        2. For testing the tool, search for the most relevant text from each project from DPG, either from the Readme file of github repository or 
+        About section of the website of the project, and enter those details through the tool. See the json output the tool provides and make a
+        spreadsheet of all the inputs and outputs to the system.
+        3. Analyze the spreadsheet using jupyter to find out improvement section of this tool.
 
   - type: textarea
     id: ticket-mockups
