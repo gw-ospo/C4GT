@@ -44,9 +44,10 @@ body:
     id: ticket-expected-outcome
     attributes:
       label: Expected Outcome
-      description: The expected outcome for this program is to have the tool publicly accessible by everyone. Anyone should be able to access the tool 
-      and get the json or yaml output file from the tool. Also, it is expected that the output from this tool will be as close as possible to the
-      results of SDG relevance.
+      description: |
+        The expected outcome for this program is to have the tool publicly accessible by everyone. Anyone should be able to access the tool 
+        and get the json or yaml output file from the tool. Also, it is expected that the output from this tool will be as close as possible to the
+        results of SDG relevance.
 
   - type: textarea
     id: ticket-acceptance-criteria
