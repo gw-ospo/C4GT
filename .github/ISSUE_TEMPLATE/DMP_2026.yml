@@ -2,8 +2,12 @@ name: DMP 2026 Project Template
 description: List a new project for Dedicated Mentoring Program (DMP) 2026
 title: "[DMP 2026]: "
 labels: ["DMP 2026"]
-project_link: https://github.com/gw-ospo/UNSDG-Goals-classifier-tool
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Project Link:** https://github.com/gw-ospo/UNSDG-Goals-classifier-tool
+        
   - type: textarea
     id: ticket-description
     validations:
