@@ -47,9 +47,7 @@ body:
       label: Expected Outcome
       description: Describe in detail what the final product or result should look like and how it should behave.
       value: |
-        The expected outcome for this program is to have the tool publicly accessible by everyone. Anyone should be able to access the tool 
-        and get the json or yaml output file from the tool. Also, it is expected that the output from this tool will be as close as possible to the
-        results of SDG relevance.
+        The expected outcome for this program is to have the tool publicly accessible by everyone. Anyone should be able to access the tool and get the json or yaml output file from the tool. Also, it is expected that the output from this tool will be as close as possible to the results of SDG relevance.
 
   - type: textarea
     id: ticket-acceptance-criteria
@@ -66,11 +64,8 @@ body:
       label: Implementation Details
       description: List any technical details about the proposed implementation, including any specific technologies that will be used.
       value: |
-        1. The architecture of the tool is Next.js for frontend and Flask for backend. For the hosting, if you find any suitable architecture
-        along with your hosting platform, feel free to migrate to a different architecture. 
-        2. For testing the tool, search for the most relevant text from each project from DPG, either from the Readme file of github repository or 
-        About section of the website of the project, and enter those details through the tool. See the json output the tool provides and make a
-        spreadsheet of all the inputs and outputs to the system.
+        1. The architecture of the tool is Next.js for frontend and Flask for backend. For the hosting, if you find any suitable architecture along with your hosting platform, feel free to migrate to a different architecture. 
+        2. For testing the tool, search for the most relevant text from each project from DPG, either from the Readme file of github repository or About section of the website of the project, and enter those details through the tool. See the json output the tool provides and make a spreadsheet of all the inputs and outputs to the system.
         3. Analyze the spreadsheet using jupyter to find out improvement section of this tool.
 
   - type: textarea
