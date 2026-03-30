@@ -200,7 +200,7 @@ body:
     validations:
       required: true
 
-  - type: choice
+  - type: dropdown
     id: ticket-governance-domain
     attributes:
       label: Domain
