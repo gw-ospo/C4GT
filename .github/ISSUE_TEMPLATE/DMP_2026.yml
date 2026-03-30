@@ -88,7 +88,6 @@ body:
       label: Organisation Name
       description: Enter Organisation Name
       multiple: false
-      value: CHAOSS
       options:
         - Agami
         - Argusoft
